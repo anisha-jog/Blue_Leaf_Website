@@ -1,0 +1,85 @@
+﻿<html>
+<head>
+    <title>Contact Us | Blue Leaf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<div class="logo-holder">
+    <a href="home.html" class="logo"><img src="https://i.ibb.co/YXDVkj0/Updated-Logo.png" style="width:75px; height:75px;"></a>
+</div>
+<div class="header">
+    <div class="nav-holder">
+        <div class="header-right">
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about_overview.html">About</a>
+                        <ul>
+                            <li><a class="sub" href="about_overview.html">Overview</a></li>
+                            <li><a class="sub" href="about_mission.html">Our Mission</a></li>
+                            <li><a class="sub" href="about_staff.html">Our Staff</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="active" href="contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="news.html">News</a>
+                    </li>
+                    <li>
+                        <a href="store.html">Store</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<body>
+
+    <?php require 'contact_email.php';?>
+
+    <h1>
+        Contact Us
+    </h1>
+    <p>Send a letter to <b>Suite 274, 520 W Main St, Rockaway, NJ 07866</b></p>
+
+    <p>Call us at <b>973-634-3247</b></p>
+    <p>Email us at <b>blueleaf.nj@veinternational.org</b></p>
+
+    <form method="post" name="myemailform" action="contact_email.php">
+        <label for="em">Email</label>
+        <br>
+        <input type="email" id="em" name="em" placeholder="Email">
+        <br>
+        <label for="sub">Subject</label>
+        <br>
+        <input type="text" id="sub" name="sub" placeholder="Email Subject">
+        <br>
+        <label for="message">Message</label>
+        <br>
+        <textarea id="message" name="body" placeholder="Type your message here..."></textarea>
+        <br>
+        <button type="submit" value="Send Form">Send</button>
+    </form>
+    <br>
+    <br>
+    <footer>
+        <p>Contact us at blueleaf.nj@veinternational.org</p>
+        <p>Share:</p>
+        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+        <a href="https://www.snapchat.com" class="fa fa-snapchat-ghost"></a>
+        <h6>Disclaimer: This is an official Virtual Enterprises International website. It is for educational purposes only.</h6>
+        <a href="https://veinternational.org"><img src="https://i.ibb.co/pPhsRK0/ve-logo.png" id="ve-logo" width="250px"></a>
+    </footer>
+
+</body>
+</html>
+
+<!--http://form.guide/email-form/php-form-to-email.html-->

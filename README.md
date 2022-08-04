@@ -6,3 +6,13 @@ Files associated to each page of the website.
 - script.js > JavaScript file applied to every page
 - policies.pdf > PDF file detailing Blue Leaf's policies
 - contact_email.php, unsub_email.php > PHP files attempting to integrate direct email communication in the site page
+
+Other pages for this website include:
+- home
+- about (overview)
+  - about (mission)
+  - about (staff)
+- contact
+- view and buy products
+- news
+  - subscribe/unsubcribe to newsletter
